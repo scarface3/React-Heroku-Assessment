@@ -1,0 +1,33 @@
+.learnmore {
+  position: relative;
+
+  background-color: #f5b342;
+}
+.learnmore_ {
+  background-color: #f5b342;
+  width: 180px;
+
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 550px;
+  color: white;
+}
+@media (max-width: 768px) {
+  .learnmore_ {
+    position: absolute;
+    right: 220px;
+  }
+}
+
+@media (max-width: 500px) {
+  .learnmore_ {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+  }
+}
