@@ -1,10 +1,10 @@
 .learnmore {
   position: relative;
 
-  background-color: #f5b342;
+  background-color: #e9970a;
 }
 .learnmore_ {
-  background-color: #f5b342;
+  background-color: #e9970a;
   width: 180px;
 
   font-size: 20px;
@@ -13,7 +13,7 @@
   border: 0;
   border-radius: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: -2;
   right: 550px;
   color: white;
 }
