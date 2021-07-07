@@ -27,7 +27,7 @@ const FoodCard = (props) => {
             </article>
             <div className={classes.text}>
               <p>{e.description.slice(600)}</p>
-              <ReactStars count={5} value={e.ratings} />
+              <ReactStars count={5} value={e.ratings} activeColor={"#e9970a"} />
               <div className={classes.screen}>
                 <div className={classes.innerdiv}>+</div>
               </div>
