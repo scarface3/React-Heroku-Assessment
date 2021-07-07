@@ -27,7 +27,7 @@
 @media (max-width: 500px) {
   .learnmore_ {
     position: absolute;
-    right: 100px;
-    bottom: 0px;
+    right: 90px;
+    bottom: -20px;
   }
 }
