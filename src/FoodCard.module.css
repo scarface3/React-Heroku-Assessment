@@ -5,7 +5,8 @@
 
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  align-items: stretch;
+  /* align-items: stretch; */
+  justify-content: space-evenly;
   height: 50%;
 }
 .a {
@@ -75,10 +76,10 @@
 .screen {
   position: relative;
 
-  background-color: #f5b342;
+  background-color: #e9970a;
 }
 .innerdiv {
-  background-color: #f5b342;
+  background-color: #e9970a;
   width: 70px;
   font-size: 30px;
   margin: 0;
