@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import classes from "./FoodCard.module.css";
 import ReactStars from "react-rating-stars-component";
-const FoodCard = (props) => {
+
+const FoodCard = () => {
   const [meals, setMeals] = useState([]);
   useEffect(() => {
     async function fetchFood() {
@@ -10,7 +11,6 @@ const FoodCard = (props) => {
       );
       const a = await response.json();
       setMeals(a.data.meals);
-      console.log(a.data.meals);
     }
     fetchFood();
   }, []);
