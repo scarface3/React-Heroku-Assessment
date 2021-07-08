@@ -7,13 +7,13 @@
   background-color: #e9970a;
   width: 180px;
 
-  font-size: 20px;
+  font-size: 14px;
   margin: 10px;
   padding: 10px;
   border: 0;
   border-radius: 20px;
   position: absolute;
-  bottom: -2;
+  bottom: -7px;
   right: 550px;
   color: white;
 }
